@@ -1,0 +1,199 @@
+/**
+ *  Fungsi	: Custom button
+ *  Module	: -
+ */
+
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.btn-danger:hover {
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+
+.btn-danger:focus, .btn-danger.focus {
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #d43f3a;
+	-webkit-box-shadow: 0 0 0 0.2rem rgba(202, 87, 253, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(202, 87, 253, 0.5);
+}
+
+/* ================================================================================================================================ */
+/**
+ *  Fungsi	: Custom modal
+ *  Module	: -
+ */
+
+.modal .modal-header{
+	padding:9px 15px;
+	color:#fff;
+	background-color:#326bb2;
+}
+
+.modal-looding > .modal-dialog {
+	background-color: #fff!important';
+	font-weight: bold;
+	color: #326bb2;
+	font-size: 14px;
+	margin-top:150px;
+}
+
+/* ================================================================================================================================ */
+/**
+ *  Fungsi	: Custom select2 4.0.1
+ *  Module	: -
+ */
+
+.select2-container{margin:0;position:relative;display:inline-block;zoom:1;*display:inline;vertical-align:middle}.select2-container,.select2-drop,.select2-search,.select2-search input{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.select2-container .select2-choice,.select2-selection{display:block;height:32px;padding:0 8px;overflow:hidden;position:relative;border:1px solid #ccc;white-space:nowrap;line-height:32px;color:#444;text-decoration:none;background-clip:padding-box;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:#fff}.smart-rtl .select2-container .select2-choice,.smart-rtl .select2-selection{text-align:right;margin-right:-1px}.select2-container--above .select2-selection,.select2-container.select2-drop-above .select2-choice{border-bottom-color:#ccc}.select2-container.select2-allowclear .select2-choice .select2-chosen{margin-right:42px}.select2-container .select2-choice>.select2-chosen{margin-right:26px;display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.select2-container .select2-choice abbr{display:none;width:12px;height:12px;position:absolute;right:24px;top:8px;font-size:1px;text-decoration:none;border:0;cursor:pointer;outline:0}.select2-container.select2-allowclear .select2-choice abbr{display:inline-block}.select2-container .select2-choice abbr:hover{cursor:pointer}.select2-drop-mask{border:0;margin:0;padding:0;position:fixed;left:0;top:0;min-height:100%;min-width:100%;height:auto;width:auto;opacity:0;z-index:9998;background:#fff;filter:alpha(opacity=0)}.select2-drop,.select2-dropdown{margin-top:-1px;width:100%;position:absolute;z-index:9999;top:100%;background:#fff;color:#000;border:1px solid #ccc;border-top:0;left:0;-webkit-box-shadow:0 4px 5px rgba(0,0,0,.15);box-shadow:0 4px 5px rgba(0,0,0,.15)}.smart-rtl .select2-drop,.smart-rtl .select2-dropdown{direction:rtl;text-align:right}.select2-drop-auto-width{border-top:1px solid #ccc;width:auto}.select2-container--open .select2-dropdown--above .select2-search,.select2-drop-auto-width .select2-search{padding-top:4px}.select2-container--open .select2-dropdown.select2-dropdown--above,.select2-drop.select2-drop-above{margin-bottom:0;border-top:1px solid #5D98CC;border-top-width:3px;border-bottom:0;margin-top:1px;-webkit-box-shadow:0 -4px 5px rgba(0,0,0,.15);box-shadow:0 -4px 5px rgba(0,0,0,.15)}.select2-container--open .select2-dropdown,.select2-drop-active{border:1px solid #5D98CC;border-top:none;border-bottom-width:3px}
+
+/* ================================================================================================================================ */
+/**
+ *  Fungsi	: Custom template aplikasi
+ *  Module	: -
+ */
+
+/* custom datatables */
+.table thead,
+.table th {text-align: center;}
+
+.bg-primary-100 {
+  background-color: #326bb2;
+	color: #fff;
+}
+.bg-primary-100:hover {
+	color: #fff;
+}
+
+.bg-primary-200 {
+  background-color: #58ad57;
+	color: #fff;
+}
+.bg-primary-200:hover {
+	color: #fff;
+}
+
+.bg-primary-201 {
+  background-color: #84bd82;
+	color: #fff;
+}
+.bg-primary-201:hover {
+	color: #fff;
+}
+
+.bg-primary-210 {
+  background-color: #c22727;
+	color: #fff;
+}
+.bg-primary-210:hover {
+	color: #fff;
+}
+
+.bg-primary-220 {
+  background-color: #484c4f;
+	color: #fff;
+}
+.bg-primary-220:hover {
+	color: #fff;
+}
+
+.bg-primary-230 {
+  background-color: #f7b21b;
+	color: #fff;
+}
+.bg-primary-230:hover {
+	color: #fff;
+}
+
+.bg-primary-231 {
+  background-color: #f5c45b;
+	color: #fff;
+}
+.bg-primary-231:hover {
+	color: #fff;
+}
+
+.bg-primary-240 {
+  background-color: #58a19e;
+	color: #fff;
+}
+.bg-primary-240:hover {
+	color: #fff;
+}
+
+.bg-primary-241 {
+  background-color: #74b5b2;
+	color: #fff;
+}
+.bg-primary-241:hover {
+	color: #fff;
+}
+
+.bg-primary-250 {
+  background-color: #92949c;
+	color: #fff;
+}
+.bg-primary-250:hover {
+	color: #fff;
+}
+
+.bg-primary-251 {
+  background-color: #acaeb5;
+	color: #fff;
+}
+.bg-primary-251:hover {
+	color: #fff;
+}
+
+.bg-primary-260 {
+  background-color: #cc5252;
+	color: #fff;
+}
+.bg-primary-260:hover {
+	color: #fff;
+}
+
+.bg-primary-261 {
+  background-color: #e67373;
+	color: #fff;
+}
+.bg-primary-261:hover {
+	color: #fff;
+}
+
+.bg-primary-270 {
+  background-color: #6083a8;
+	color: #fff;
+}
+.bg-primary-270:hover {
+	color: #fff;
+}
+
+
+/* custom button */
+.btn-primary {
+  color: #fff;
+  background-color: #3983e0;
+  border-color: #3983e0;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #2d6ab6;
+	border-color: #2e6dbc;
+}
+
+/* custom paging */
+.page-item.active .page-link {
+	color: #fff;
+	background-color: #3983e0;
+}
+.pagination .page-link:hover {
+	background-color: #3983e0 !important;
+	color: #fff;
+}
